@@ -8,7 +8,7 @@ import org.apache.spark.{SparkConf, SparkContext}
 import org.apache.spark.sql.{Row, SparkSession}
 import org.apache.spark.sql.types.{ArrayType, DataType, DataTypes, DecimalType, DoubleType, StringType, StructField, StructType}
 
-object main {
+object best_record {
 
   def main(args: Array[String]): Unit = {
     Logger.getLogger("org").setLevel(Level.OFF)
